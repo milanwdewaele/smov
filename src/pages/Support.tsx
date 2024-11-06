@@ -100,20 +100,6 @@ export function SupportPage() {
             </Button>
           </div>
         </Paragraph>
-        <Ol
-          items={[
-            <Item title={t("support.q1.title")}>
-              <Trans i18nKey="support.q1.body">
-                <MwLink to="https://docs.undi.rest/links/discord" />
-              </Trans>
-            </Item>,
-            <Item title={t("support.q2.title")}>
-              <Trans i18nKey="support.q2.body">
-                <MwLink to="https://github.com/sussy-code/smov" />
-              </Trans>
-            </Item>,
-          ]}
-        />
         <Paragraph className="flex space-x-3 items-center">
           <Icon icon={Icons.MAIL} />
           <a
